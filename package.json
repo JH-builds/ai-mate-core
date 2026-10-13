@@ -1,0 +1,26 @@
+{
+  "name": "ai-mate-core-source",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "scripts": {
+    "build": "node scripts/build-core.mjs",
+    "test": "node --import tsx --test --test-concurrency=1 tests/core-standalone.test.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12",
+    "tsx": "4.22.2"
+  },
+  "coreLocalEmbedding": {
+    "package": "@huggingface/transformers",
+    "version": "3.8.1",
+    "installOnlyForLocalVectors": true
+  }
+}

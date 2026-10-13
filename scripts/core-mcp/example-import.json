@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "memories": [
+    {
+      "type": "fact",
+      "category": "general",
+      "domain": "life",
+      "content": "In this fictional example, the user enjoys growing jasmine in a small garden.",
+      "createdAt": "2026-01-02T03:04:05.000Z"
+    },
+    {
+      "type": "reflection",
+      "category": "general",
+      "content": "Cedar's unreviewed fictional hypothesis about the garden; not eligible for recall.",
+      "createdAt": "2026-01-02T04:00:00.000Z",
+      "reflectionMeta": {
+        "origin": "legacy",
+        "claimedStatus": "unreviewed",
+        "runtimeEligibility": "excluded"
+      }
+    }
+  ]
+}
